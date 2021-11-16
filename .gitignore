@@ -1,18 +1,14 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Created by https://www.toptal.com/developers/gitignore/api/vagrant
+# Edit at https://www.toptal.com/developers/gitignore?templates=vagrant
 
-# Other files and folders
-.settings/
+### Vagrant ###
+# General
+.vagrant/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+### Vagrant Patch ###
+*.box
+
+# End of https://www.toptal.com/developers/gitignore/api/vagrant
